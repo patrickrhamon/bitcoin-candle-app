@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <CandleStickChart v-if="candles.length > 0" :candles="candles" />
+  <CandleStickChart :candles="candles" v-if="candles.length > 0" />
 </template>
 
 <script lang="ts">
